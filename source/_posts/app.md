@@ -1,7 +1,9 @@
 ---
 title: 记一次 “Could not launch” 错误
 date: 2019-03-18 11:29:26
-tags:
+categories:
+- iOS 相关
+tags: Xcode
 ---
 
 ## 问题描述
