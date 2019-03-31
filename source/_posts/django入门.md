@@ -53,15 +53,15 @@ MacOS 系统自带 Python2.7，所以我们需要升级至 Python3。
 
 我们可以通过命令行来创建一个 Django 工程
 
-`django-admin.py startproject djangoDemo`
+`django-admin.py startproject HiDjango`
 
 我们可以通过 tree 命令，看一下 Django 工程的目录结构
 
-`tree djangoDemo`
+`tree `
 
 ```
-djangoDemo/
-├── djangoDemo
+HiDjango/
+├── HiDjango
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
@@ -85,7 +85,7 @@ mac 上默认没有 tree 命令，执行 `brew install tree` 安装
 我们再来 tree 一下目录，`tree djangoDemo`
 
 ```
-djangoDemo/
+HiDjango/
 ├── ajangoApp
 │   ├── __init__.py
 │   ├── admin.py
@@ -95,7 +95,7 @@ djangoDemo/
 │   ├── models.py
 │   ├── tests.py
 │   └── views.py
-├── djangoDemo
+├── HiDjango
 │   ├── __init__.py
 │   ├── __pycache__
 │   │   ├── __init__.cpython-37.pyc
